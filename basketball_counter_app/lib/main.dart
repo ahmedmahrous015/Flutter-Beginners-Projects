@@ -1,5 +1,3 @@
-import 'dart:developer';
-
 import 'package:basketball_counter_app/cubit/counter_cubit.dart';
 import 'package:basketball_counter_app/cubit/counter_state.dart';
 import 'package:flutter/material.dart';
@@ -9,6 +7,7 @@ void main() {
   runApp(const pointsCounter());
 }
 
+// ignore: camel_case_types
 class pointsCounter extends StatelessWidget {
   const pointsCounter({super.key});
 

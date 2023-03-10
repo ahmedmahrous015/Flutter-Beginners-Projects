@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const BirthdayCard());
+  runApp( const BirthdayCard());
 }
 
 class BirthdayCard extends StatelessWidget {

@@ -4,6 +4,7 @@ void main() {
   runApp(BusniessCardApp());
 }
 
+// ignore: must_be_immutable
 class BusniessCardApp extends StatelessWidget {
   BusniessCardApp({Key? key}) : super(key: key);
   double radius = 112;

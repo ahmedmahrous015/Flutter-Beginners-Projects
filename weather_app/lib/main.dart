@@ -17,6 +17,7 @@ void main() {
   );
 }
 
+// ignore: must_be_immutable
 class WeatherApp extends StatelessWidget {
   WeatherApp({Key? key}) : super(key: key);
   WeatherModel? weather;

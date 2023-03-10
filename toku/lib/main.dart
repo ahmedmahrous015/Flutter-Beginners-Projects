@@ -3,9 +3,7 @@ import 'package:toku/screens/home_page.dart';
 
 void main() {
   runApp(const TokoApp());
-  //adb tcpip 5555
-  //adb connect 192.168.1.3:5555
-  //flutter devices
+  
 }
 
 class TokoApp extends StatelessWidget {
@@ -13,7 +11,7 @@ class TokoApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
       home: HomePage(),
     );
