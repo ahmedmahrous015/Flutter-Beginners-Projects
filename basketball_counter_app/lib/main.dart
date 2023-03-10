@@ -6,7 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 void main() {
-  runApp(pointsCounter());
+  runApp(const pointsCounter());
 }
 
 class pointsCounter extends StatelessWidget {
